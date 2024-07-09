@@ -1,0 +1,47 @@
+body{
+  background-image: url(Background.png); 
+  background-size: 1830px;
+  background-repeat: no-repeat;
+}
+
+.debug{
+    display:none;
+}
+
+.container{
+    width:1800px;
+    height:450px;
+    margin:0px;
+    border-radius: 15px;
+    border:0px solid purple; 
+    box-shadow: 15px 15px 6px rgba (106,96,96,0.7);
+}
+
+iframe.header{
+    width:1800px;
+    height:90px;
+    border-radius: 10px 10px 0 0;
+    float:left;
+}
+
+iframe.menu{
+    clear:left;
+    float:left;
+    position:relative;
+    border:none;
+    border-radius: 0 0 0 15px;
+    width: auto;
+    height:720px;
+    overflow: none;
+}
+
+iframe.kandungan{
+    overflow: none;
+    float:left;
+    position:relative;
+    border: none;
+    border-radius: 0 0 10px 0;
+    width: 1500px;
+    height: 500px;
+}
+}
