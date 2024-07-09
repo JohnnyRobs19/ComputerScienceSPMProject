@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="boranglogin.css">
+<link rel="stylesheet" href="button.css">
+
+   <div class="container">
+    <iframe class="header" src="header.html" name=header></iframe>
+</div>
+    <h3 class="panjang">SIGN UP</h3>
+    <form class="panjang" action="signup.php" method="post">
+    <table>
+        <tr>
+            <td>ID Pelajar</td>
+            <td><input type="text" name="idpelajar" placeholder="=max 4 char"></td>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td><input type="text"name="namapelajar"></td>
+        </tr>
+        <tr>
+            <td>NamaKelas</td>
+            <td>
+            <select name="idkelas">
+            $sql="select * from kelas";
+            $data=mysqli_query($sambungan,$sql);
+            while ($kelas=mysqli_fetch_array($data)){
+                echo "<option value="$kelas[idkelas]">$kelas[namakelas]</option>";
+                }
+            </select>
+            </td>
+        </tr>
+    </table>
+        <button class="tambah" type="submit">Daftar</button>
+        <button class="padam" type="button" onclick="window.login='login.php'">Batal</button>
+</form>
+    

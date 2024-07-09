@@ -1,0 +1,74 @@
+body{
+       background-image: url("Questions%20Background.jpg");
+       background-size: 1500px 500px;
+       background-repeat: no-repeat;
+}
+
+#b-navbar #b-query {
+    font-size: 25px;
+    color: #000;
+    background-color: transparent;
+    border: none;
+    width: 240px;
+    margin: 0;
+}
+
+.debug{
+    display:none;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:verdana;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    
+    width:1450px;
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+caption, .hola {
+    font-size: 25px;
+    font-weight: bold;
+    color: darkviolet;
+    padding: 8px;
+}
+
+td,th{
+    padding: 8px;
+    border: 2px solid purple;
+    
+}
+
+td.bil{
+    width: 20px;
+    
+}
+td.soalan{
+    width:300px;
+    text-align: left;
+    
+}
+
+td.keputusan{
+    width: 250px;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: thistle;
+    
+}
+
+tr:nth-child(even){
+    background-color: lavender;
+}
+
+th{
+    font-weight: bold;
+    color: white;
+    background-color: darkviolet;
+}

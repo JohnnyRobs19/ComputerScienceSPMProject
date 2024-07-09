@@ -1,0 +1,93 @@
+button {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    color: darkolivegreen;
+    
+    width: 90px;
+    padding : 7px 8px 7px 25px;
+    border: 1px solid darkolivegreen;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 120px;
+    background-position: 8px;
+    background-repeat: no-repeat;
+    
+}
+
+button.none{
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 2px;
+}
+
+button.login{
+    background-image: url(signin.png);
+}
+
+button.signup{
+    background-image: url(signup.png);
+}
+
+button.tambah{
+    background-image: url(add.png);
+}
+
+button.simpan{
+    background-image: url(save.png);
+}
+
+button.padam{
+    background-image: url(delete.png);
+}
+
+button.update{
+    background-image: url(update.png);
+}
+
+button.import{
+    background-image: url(import.png);
+}
+
+button.cetak{
+    background-image: url(printer.png);
+    margin-left:10px;
+}
+
+button.keluar {
+    background-image: url(door.png);
+}
+
+button.papar {
+    background-image: url(monitor.png);
+}
+
+button.semak{
+    background-image: url(betul.png);
+}
+
+button:hover {
+     background-color:darkgray;
+     cursor:pointer;
+}

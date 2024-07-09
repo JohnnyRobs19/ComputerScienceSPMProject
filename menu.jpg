@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="menu1.css">
+<html>
+    <head>
+        <ul>
+            <a>Home</a>
+            <a>Borang Markah</a>
+            <a>Borang Luas</a>
+            <a>Borang Tiket</a>
+            <a>Borang BMI</a>
+            <a>Keluar</a>
+            
+        </ul>
+    </head>
+</html>
+            
+            
+
+
+
+
+
+
+
+
+
